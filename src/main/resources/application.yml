@@ -1,0 +1,16 @@
+server:
+  port: 8089
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      authentication-database: admin
+      username: root
+      password: example
+      database: architteturehexagonaldb
+
+pascucci:
+  client:
+    address:
+      url: http://localhost:9091/addresses
