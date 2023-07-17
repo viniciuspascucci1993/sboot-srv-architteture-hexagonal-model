@@ -26,7 +26,7 @@ Aplicação responsável por mostrar como uma arquitetura hexagonal se comporta
 ```bash
 docker build . -t sboot-srv-architteture-hexagonal-model
 ```
-2 - Inicializar a imagem na porta 8080:
+2 - Inicializar a imagem na porta 8089:
 ```bash
 docker run --name internet-banking -p 8089:8089 -d sboot-srv-architteture-hexagonal-model
 ```
